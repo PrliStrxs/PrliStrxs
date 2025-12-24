@@ -2,6 +2,8 @@
 
 ![Modern C++ template][github-sub-title:img]
 
+![头像](image/头像.jpg)
+
 [![Bilibili](https://img.shields.io/badge/bilibili-B站-ff69b4)](https://space.bilibili.com/1256186586)
 [![Java](https://img.shields.io/badge/Java-Java%20SE-orange)](https://docs.oracle.com/javase/specs/)
 [![博客](https://img.shields.io/badge/博客-个人网站-green)](http://neikos496.xyz)
@@ -12,7 +14,6 @@
 
 </div>
 
-![头像](image/头像.jpg)
 
 ![GitHub账户最常用语言](https://github-stats.ubrong.com/api/top-langs/?username=PrliStrxs&layout=compact&theme=tokyonight)
 
