@@ -10,12 +10,12 @@
 ![](https://img.shields.io/badge/性格-内向-red) 
 ![](https://img.shields.io/badge/爱好-二次元-red)
 
+![Visitor Count](https://profile-counter.glitch.me/{PrliStrxs}/count.svg)
+
 </div>
 
 ![头像](image/头像.jpg)
 
 ![GitHub账户最常用语言](https://github-stats.ubrong.com/api/top-langs/?username=PrliStrxs&layout=compact&theme=tokyonight)
-
-![B站统计](https://stats.justsong.cn/api/bilibili/?id=1256186586&amp;theme=dark)
 
 [github-sub-title:img]: https://readme-typing-svg.herokuapp.com?font=Segoe+Script&center=true&lines=ZhaoNie兆孽.
