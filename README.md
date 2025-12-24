@@ -16,6 +16,8 @@
 
 ![GitHub账户最常用语言](https://github-stats.ubrong.com/api/top-langs/?username=PrliStrxs&layout=compact&theme=tokyonight)
 
+![Snake Contribution Graph](svg/snake-contribution.svg)
+
 </div>
 
 
