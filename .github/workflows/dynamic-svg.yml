@@ -30,8 +30,11 @@ jobs:
         # 创建SVG目录（如果不存在）
         mkdir -p svg
         
+        # 获取当前时间
+        CURRENT_TIME=$(date -u '+%Y-%m-%d %H:%M:%S UTC')
+        
         # 生成带有"neikos"字样的动态SVG
-        cat > svg/neikos-dynamic.svg << 'EOF'
+        cat > svg/neikos-dynamic.svg << EOF
         <svg width="400" height="100" xmlns="http://www.w3.org/2000/svg">
           <defs>
             <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -69,14 +72,11 @@ jobs:
                 font-size="12" 
                 text-anchor="middle" 
                 fill="#888">
-            Last updated: $(date '+%Y-%m-%d %H:%M:%S UTC')
+            Last updated: ${CURRENT_TIME}
             <animate attributeName="opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite" />
           </text>
         </svg>
         EOF
-        
-        # 使用实际时间替换占位符
-        sed -i "s/\$(date '+%Y-%m-%d %H:%M:%S UTC')/$(date -u '+%Y-%m-%d %H:%M:%S UTC')/g" svg/neikos-dynamic.svg
         
     - name: Commit and push changes
       run: |
