@@ -16,7 +16,14 @@
 
 ![GitHub账户最常用语言](https://github-stats.ubrong.com/api/top-langs/?username=PrliStrxs&layout=compact&theme=tokyonight)
 
-![Snake Game](https://raw.githubusercontent.com/PrliStrxs/PrliStrxs/output/github-contribution-grid-snake-dark.svg)
+<!--   GitHub stats graph -->
+### 📈 GitHub Activity Graph:
+
+<!--   green snake -->
+![PrliStrxs's github activity graph](https://raw.githubusercontent.com/PrliStrxs/PrliStrxs/output/github-contribution-grid-snake.svg)
+
+<!-- dark snake -->
+![PrliStrxs's github activity graph](https://raw.githubusercontent.com/PrliStrxs/PrliStrxs/output/github-contribution-grid-snake-dark.svg)
 
 </div>
 
