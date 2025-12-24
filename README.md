@@ -10,8 +10,6 @@
 ![](https://img.shields.io/badge/性格-内向-red) 
 ![](https://img.shields.io/badge/爱好-二次元-red)
 
-![Visitor Count](https://profile-counter.glitch.me/PrliStrxs/count.svg)
-
 </div>
 
 ![头像](image/头像.jpg)
