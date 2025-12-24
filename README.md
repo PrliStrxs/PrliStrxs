@@ -16,4 +16,6 @@
 
 ![GitHub账户最常用语言](https://github-stats.ubrong.com/api/top-langs/?username=PrliStrxs&layout=compact&theme=tokyonight)
 
+![B站统计](https://stats.justsong.cn/api/bilibili/?id=1256186586&amp;theme=dark)
+
 [github-sub-title:img]: https://readme-typing-svg.herokuapp.com?font=Segoe+Script&center=true&lines=ZhaoNie兆孽.
