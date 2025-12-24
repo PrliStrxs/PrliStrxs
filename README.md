@@ -6,7 +6,7 @@
 
 ![Modern C++ template][github-sub-title:img]
 
-[![Bilibili](https://img.shields.io/badge/bilibili-B站-ff69b4)](https://space.bilibili.com/1256186586)
+[![哔哩哔哩](https://img.shields.io/badge/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9-%E5%85%86%E5%AD%BD-pink?logo=bilibili)](https://space.bilibili.com/1256186586)
 [![Java](https://img.shields.io/badge/Java-Java%20SE-orange)](https://docs.oracle.com/javase/specs/)
 [![博客](https://img.shields.io/badge/博客-个人网站-green)](http://neikos496.xyz)
 <br>
