@@ -14,4 +14,6 @@
 
 ![头像](image/头像.jpg)
 
+![GitHub账户最常用语言](https://github-stats.ubrong.com/api/top-langs/?username=PrliStrxs&layout=compact&theme=tokyonight)
+
 [github-sub-title:img]: https://readme-typing-svg.herokuapp.com?font=Segoe+Script&center=true&lines=ZhaoNie兆孽.
