@@ -30,30 +30,46 @@ jobs:
         # 创建SVG目录（如果不存在）
         mkdir -p svg
         
-        # 生成带有"neikos496.xyz"字样的动态SVG（透明背景）
+        # 生成带有"neikos496.xyz"字样的多彩动态SVG（透明背景）
         cat > svg/neikos-dynamic.svg << 'EOF'
         <svg width="500" height="80" xmlns="http://www.w3.org/2000/svg">
           <defs>
             <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
               <stop offset="0%" style="stop-color:#667eea;stop-opacity:1">
-                <animate attributeName="stop-color" values="#667eea;#764ba2;#f093fb;#667eea" dur="4s" repeatCount="indefinite" />
+                <animate attributeName="stop-color" values="#667eea;#4158D0;#4facfe;#667eea" dur="6s" repeatCount="indefinite" />
+              </stop>
+              <stop offset="20%" style="stop-color:#4158D0;stop-opacity:1">
+                <animate attributeName="stop-color" values="#4158D0;#4facfe;#00f2fe;#4158D0" dur="6s" repeatCount="indefinite" />
+              </stop>
+              <stop offset="35%" style="stop-color:#4facfe;stop-opacity:1">
+                <animate attributeName="stop-color" values="#4facfe;#00f2fe;#764ba2;#4facfe" dur="6s" repeatCount="indefinite" />
               </stop>
               <stop offset="50%" style="stop-color:#764ba2;stop-opacity:1">
-                <animate attributeName="stop-color" values="#764ba2;#f093fb;#667eea;#764ba2" dur="4s" repeatCount="indefinite" />
+                <animate attributeName="stop-color" values="#764ba2;#C850C0;#f093fb;#764ba2" dur="6s" repeatCount="indefinite" />
               </stop>
-              <stop offset="100%" style="stop-color:#f093fb;stop-opacity:1">
-                <animate attributeName="stop-color" values="#f093fb;#667eea;#764ba2;#f093fb" dur="4s" repeatCount="indefinite" />
+              <stop offset="65%" style="stop-color:#C850C0;stop-opacity:1">
+                <animate attributeName="stop-color" values="#C850C0;#f093fb;#a8edea;#C850C0" dur="6s" repeatCount="indefinite" />
+              </stop>
+              <stop offset="80%" style="stop-color:#f093fb;stop-opacity:1">
+                <animate attributeName="stop-color" values="#f093fb;#a8edea;#667eea;#f093fb" dur="6s" repeatCount="indefinite" />
+              </stop>
+              <stop offset="100%" style="stop-color:#a8edea;stop-opacity:1">
+                <animate attributeName="stop-color" values="#a8edea;#667eea;#4158D0;#a8edea" dur="6s" repeatCount="indefinite" />
               </stop>
             </linearGradient>
             <filter id="glow">
-              <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+              <feGaussianBlur stdDeviation="5" result="coloredBlur"/>
               <feMerge>
                 <feMergeNode in="coloredBlur"/>
                 <feMergeNode in="SourceGraphic"/>
               </feMerge>
             </filter>
-            <filter id="shadow">
-              <feDropShadow dx="0" dy="0" stdDeviation="3" flood-color="#667eea" flood-opacity="0.5"/>
+            <filter id="enhanced-glow">
+              <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+              <feMerge>
+                <feMergeNode in="coloredBlur"/>
+                <feMergeNode in="SourceGraphic"/>
+              </feMerge>
             </filter>
           </defs>
           
@@ -63,13 +79,13 @@ jobs:
                 font-weight="bold" 
                 text-anchor="middle" 
                 fill="url(#gradient)"
-                filter="url(#glow)">
+                filter="url(#enhanced-glow)">
             neikos496.xyz
-            <animate attributeName="opacity" values="0.7;1;0.7" dur="2s" repeatCount="indefinite" />
+            <animate attributeName="opacity" values="0.8;1;0.8" dur="2.5s" repeatCount="indefinite" />
             <animateTransform attributeName="transform" 
                               type="scale" 
-                              values="1;1.02;1" 
-                              dur="3s" 
+                              values="1;1.03;1" 
+                              dur="4s" 
                               repeatCount="indefinite" 
                               additive="sum"/>
           </text>

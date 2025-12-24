@@ -2,9 +2,9 @@
 
 ![Modern C++ template][github-sub-title:img]
 
-![头像](image/头像.jpg)
-
 ![Dynamic neikos SVG](svg/neikos-dynamic.svg)
+
+![头像](image/头像.jpg)
 
 [![Bilibili](https://img.shields.io/badge/bilibili-B站-ff69b4)](https://space.bilibili.com/1256186586)
 [![Java](https://img.shields.io/badge/Java-Java%20SE-orange)](https://docs.oracle.com/javase/specs/)
