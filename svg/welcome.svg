@@ -7,67 +7,42 @@
         }
     </style>
     <defs>
-        <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" style="stop-color:#C850C0;stop-opacity:1">
-                <animate attributeName="stop-color" values="#C850C0;#f093fb;#4facfe;#C850C0" dur="6s" repeatCount="indefinite" />
-            </stop>
-            <stop offset="25%" style="stop-color:#f093fb;stop-opacity:1">
-                <animate attributeName="stop-color" values="#f093fb;#4facfe;#00f2fe;#f093fb" dur="6s" repeatCount="indefinite" />
-            </stop>
-            <stop offset="50%" style="stop-color:#4facfe;stop-opacity:1">
-                <animate attributeName="stop-color" values="#4facfe;#00f2fe;#00CED1;#4facfe" dur="6s" repeatCount="indefinite" />
-            </stop>
-            <stop offset="75%" style="stop-color:#00CED1;stop-opacity:1">
-                <animate attributeName="stop-color" values="#00CED1;#C850C0;#f093fb;#00CED1" dur="6s" repeatCount="indefinite" />
-            </stop>
-            <stop offset="100%" style="stop-color:#C850C0;stop-opacity:1">
-                <animate attributeName="stop-color" values="#C850C0;#f093fb;#4facfe;#C850C0" dur="6s" repeatCount="indefinite" />
-            </stop>
-        </linearGradient>
-        
         <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stop-color="#C850C0"/>
-            <stop offset="33%" stop-color="#f093fb"/>
-            <stop offset="66%" stop-color="#4facfe"/>
-            <stop offset="100%" stop-color="#00CED1"/>
+            <stop offset="0%" style="stop-color:#FF6B6B;stop-opacity:1">
+                <animate attributeName="stop-color" values="#FF6B6B;#4ECDC4;#45B7D1;#96CEB4;#FFEAA7;#DDA0DD;#98D8C8;#F7DC6F;#BB8FCE;#85C1E2;#F8B739;#52B788;#FF6B6B" dur="8s" repeatCount="indefinite" />
+            </stop>
+            <stop offset="16%" style="stop-color:#4ECDC4;stop-opacity:1">
+                <animate attributeName="stop-color" values="#4ECDC4;#45B7D1;#96CEB4;#FFEAA7;#DDA0DD;#98D8C8;#F7DC6F;#BB8FCE;#85C1E2;#F8B739;#52B788;#FF6B6B;#4ECDC4" dur="8s" repeatCount="indefinite" />
+            </stop>
+            <stop offset="33%" style="stop-color:#45B7D1;stop-opacity:1">
+                <animate attributeName="stop-color" values="#45B7D1;#96CEB4;#FFEAA7;#DDA0DD;#98D8C8;#F7DC6F;#BB8FCE;#85C1E2;#F8B739;#52B788;#FF6B6B;#4ECDC4;#45B7D1" dur="8s" repeatCount="indefinite" />
+            </stop>
+            <stop offset="50%" style="stop-color:#96CEB4;stop-opacity:1">
+                <animate attributeName="stop-color" values="#96CEB4;#FFEAA7;#DDA0DD;#98D8C8;#F7DC6F;#BB8FCE;#85C1E2;#F8B739;#52B788;#FF6B6B;#4ECDC4;#45B7D1;#96CEB4" dur="8s" repeatCount="indefinite" />
+            </stop>
+            <stop offset="66%" style="stop-color:#FFEAA7;stop-opacity:1">
+                <animate attributeName="stop-color" values="#FFEAA7;#DDA0DD;#98D8C8;#F7DC6F;#BB8FCE;#85C1E2;#F8B739;#52B788;#FF6B6B;#4ECDC4;#45B7D1;#96CEB4;#FFEAA7" dur="8s" repeatCount="indefinite" />
+            </stop>
+            <stop offset="83%" style="stop-color:#DDA0DD;stop-opacity:1">
+                <animate attributeName="stop-color" values="#DDA0DD;#98D8C8;#F7DC6F;#BB8FCE;#85C1E2;#F8B739;#52B788;#FF6B6B;#4ECDC4;#45B7D1;#96CEB4;#FFEAA7;#DDA0DD" dur="8s" repeatCount="indefinite" />
+            </stop>
+            <stop offset="100%" style="stop-color:#98D8C8;stop-opacity:1">
+                <animate attributeName="stop-color" values="#98D8C8;#F7DC6F;#BB8FCE;#85C1E2;#F8B739;#52B788;#FF6B6B;#4ECDC4;#45B7D1;#96CEB4;#FFEAA7;#DDA0DD;#98D8C8" dur="8s" repeatCount="indefinite" />
+            </stop>
         </linearGradient>
-        
-        <filter id="glow">
-            <feGaussianBlur stdDeviation="5" result="coloredBlur"/>
-            <feMerge>
-                <feMergeNode in="coloredBlur"/>
-                <feMergeNode in="SourceGraphic"/>
-            </feMerge>
-        </filter>
-        
-        <filter id="enhanced-glow">
-            <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
-            <feMerge>
-                <feMergeNode in="coloredBlur"/>
-                <feMergeNode in="SourceGraphic"/>
-            </feMerge>
-        </filter>
     </defs>
     
     <g transform="translate(427, 100) scale(1, 1) translate(-427, -100)">
         <path d="" fill="url(#bg-gradient)" opacity="0.4">
-            <animate attributeName="d" dur="20s" repeatCount="indefinite" keyTimes="0;0.333;0.667;1" calcmod="spline" keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1" begin="0s" values="M0 0L 0 120Q 213.5 160 427 130T 854 155L 854 0 Z;M0 0L 0 145Q 213.5 160 427 140T 854 130L 854 0 Z;M0 0L 0 165Q 213.5 135 427 165T 854 130L 854 0 Z;M0 0L 0 120Q 213.5 160 427 130T 854 155L 854 0 Z"></animate>
+            <animate attributeName="d" dur="15s" repeatCount="indefinite" keyTimes="0;0.25;0.5;0.75;1" calcmod="spline" keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1" begin="0s" values="M0 0L 0 100Q 213.5 180 427 140T 854 120L 854 0 Z;M0 0L 0 140Q 213.5 200 427 160T 854 180L 854 0 Z;M0 0L 0 80Q 213.5 160 427 120T 854 140L 854 0 Z;M0 0L 0 160Q 213.5 140 427 180T 854 100L 854 0 Z;M0 0L 0 100Q 213.5 180 427 140T 854 120L 854 0 Z"></animate>
         </path>
         <path d="" fill="url(#bg-gradient)" opacity="0.4">
-            <animate attributeName="d" dur="20s" repeatCount="indefinite" keyTimes="0;0.333;0.667;1" calcmod="spline" keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1" begin="-10s" values="M0 0L 0 135Q 213.5 180 427 150T 854 160L 854 0 Z;M0 0L 0 150Q 213.5 120 427 120T 854 140L 854 0 Z;M0 0L 0 145Q 213.5 125 427 150T 854 165L 854 0 Z;M0 0L 0 135Q 213.5 180 427 150T 854 160L 854 0 Z"></animate>
+            <animate attributeName="d" dur="15s" repeatCount="indefinite" keyTimes="0;0.25;0.5;0.75;1" calcmod="spline" keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1" begin="-7.5s" values="M0 0L 0 120Q 213.5 160 427 180T 854 140L 854 0 Z;M0 0L 0 160Q 213.5 120 427 140T 854 160L 854 0 Z;M0 0L 0 100Q 213.5 180 427 160T 854 120L 854 0 Z;M0 0L 0 140Q 213.5 100 427 120T 854 180L 854 0 Z;M0 0L 0 120Q 213.5 160 427 180T 854 140L 854 0 Z"></animate>
         </path>
     </g>
 
     <!-- 第一个文字：欢迎查看我的项目 -->
-    <text text-anchor="middle" alignment-baseline="middle" x="50%" y="30%" class="text" 
-          fill="url(#gradient)" filter="url(#enhanced-glow)">
-        <animate attributeName="opacity" values="0.8;1;0.8" dur="2.5s" repeatCount="indefinite" />
-        <animateTransform attributeName="transform" 
-                          type="scale" 
-                          values="1;1.03;1" 
-                          dur="4s" 
-                          repeatCount="indefinite" 
-                          additive="sum"/>
+    <text text-anchor="middle" alignment-baseline="middle" x="50%" y="30%" class="text" style="fill:#2E7D32;">
         欢迎查看我的项目
     </text>
 </svg>
