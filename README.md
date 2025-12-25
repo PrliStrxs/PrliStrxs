@@ -1,5 +1,7 @@
 <div id="title" align=center>
 
+![](assets/welcome.svg)
+
 ![Dynamic neikos SVG](svg/neikos-dynamic.svg)
 
 ![头像](image/头像.jpg)
