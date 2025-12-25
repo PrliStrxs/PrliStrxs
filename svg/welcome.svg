@@ -36,7 +36,7 @@
     </g>
 
     <!-- 第一个文字：欢迎查看我的项目 -->
-    <text text-anchor="middle" alignment-baseline="middle" x="50%" y="30%" style="fill:#2E7D32; font-size: 60px;">
+    <text text-anchor="middle" alignment-baseline="middle" x="50%" y="30%" fill="#2E7D32" font-size="60">
         欢迎查看我的项目
     </text>
 </svg>
