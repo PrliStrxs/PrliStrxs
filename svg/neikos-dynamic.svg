@@ -39,9 +39,9 @@
     </filter>
   </defs>
   
-  <text x="250" y="50" 
+  <text x="250" y="45" 
         font-family="'Segoe UI', 'Arial', sans-serif" 
-        font-size="32" 
+        font-size="38" 
         font-weight="bold" 
         text-anchor="middle" 
         fill="url(#gradient)"
