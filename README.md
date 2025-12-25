@@ -12,16 +12,10 @@
 [![星穹铁道](https://img.shields.io/badge/游戏-星穹铁道-blue)](https://sr.mihoyo.com/main)
 [![爱好-二次元](https://img.shields.io/badge/爱好-二次元-red)](https://bbs.mihoyo.com/sr/wiki/content/5851/detail?bbs_presentation_style=no_header)
 
-<table>
-  <tr>
-    <td width="50%" align="center">
-      ![Dynamic neikos SVG](svg/neikos-dynamic.svg)
-    </td>
-    <td width="50%" align="center">
-      ![GitHub账户最常用语言](https://github-stats.ubrong.com/api/top-langs/?username=PrliStrxs&layout=compact&theme=tokyonight)
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="svg/neikos-dynamic.svg" width="45%" alt="Dynamic neikos SVG">
+  <img src="https://github-stats.ubrong.com/api/top-langs/?username=PrliStrxs&layout=compact&theme=tokyonight" width="45%" alt="GitHub账户最常用语言">
+</p>
 
 ![BEPb's github activity graph](https://raw.githubusercontent.com/BEPb/BEPb/output/github-contribution-grid-snake.svg)
 
