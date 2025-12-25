@@ -4,7 +4,7 @@
 
 ![Modern C++ template][github-sub-title:img]
 
-![头像](image/头像.jpg)
+<img src="image/头像.jpg" alt="头像" style="margin-top: -20px;">
 
 ![Dynamic neikos SVG](svg/neikos-dynamic.svg)
 

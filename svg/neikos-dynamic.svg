@@ -1,4 +1,4 @@
-<svg width="500" height="40" xmlns="http://www.w3.org/2000/svg">
+<svg width="500" height="30" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" style="stop-color:#667eea;stop-opacity:1">
@@ -39,7 +39,7 @@
     </filter>
   </defs>
   
-  <text x="250" y="25" 
+  <text x="250" y="20" 
         font-family="'Segoe UI', 'Arial', sans-serif" 
         font-size="32" 
         font-weight="bold" 
