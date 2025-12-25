@@ -13,7 +13,9 @@
 [![爱好-二次元](https://img.shields.io/badge/爱好-二次元-red)](https://bbs.mihoyo.com/sr/wiki/content/5851/detail?bbs_presentation_style=no_header)
 
 <p align="center">
-  <img src="svg/neikos-dynamic.svg" width="45%" alt="Dynamic neikos SVG">
+  <a href="http://neikos496.xyz" target="_blank">
+    <img src="svg/neikos-dynamic.svg" width="45%" alt="Dynamic neikos SVG">
+  </a>
   <img src="https://github-stats.ubrong.com/api/top-langs/?username=PrliStrxs&layout=compact&theme=tokyonight" width="45%" alt="GitHub账户最常用语言">
 </p>
 
