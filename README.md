@@ -1,6 +1,6 @@
 <div id="title" align=center>
 
-![](assets/welcome.svg)
+![](svg/welcome1.svg)
 
 ![Dynamic neikos SVG](svg/neikos-dynamic.svg)
 
