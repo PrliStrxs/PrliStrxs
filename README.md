@@ -9,7 +9,7 @@
 [![哔哩哔哩](https://img.shields.io/badge/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9-%E5%85%86%E5%AD%BD-pink?logo=bilibili)](https://space.bilibili.com/1256186586)
 [![Java](https://img.shields.io/badge/Java-Java%20SE-orange)](https://docs.oracle.com/javase/specs/)
 [![博客](https://img.shields.io/badge/博客-个人网站-green)](http://neikos496.xyz)
-[![星穹铁道](https://img.shields.io/badge/星穹铁道-游戏-blue)](https://sr.mihoyo.com/main)
+[![星穹铁道](https://img.shields.io/badge/游戏-星穹铁道-blue)](https://sr.mihoyo.com/main)
 [![爱好-二次元](https://img.shields.io/badge/爱好-二次元-red)](https://bbs.mihoyo.com/sr/wiki/content/5851/detail?bbs_presentation_style=no_header)
 
 ![Dynamic neikos SVG](svg/neikos-dynamic.svg)
