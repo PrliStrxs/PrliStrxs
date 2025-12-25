@@ -22,6 +22,10 @@
 
 </div>
 
+### 浏览人数
+
+![](https://count.getloli.com/get/@PrliStrxs.github.readme)
+</br>
 
 [github-sub-title:img]: https://readme-typing-svg.herokuapp.com?font=Segoe+Script&center=true&lines=ZhaoNie兆孽.
 
