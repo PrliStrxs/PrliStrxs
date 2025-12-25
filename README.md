@@ -12,9 +12,16 @@
 [![星穹铁道](https://img.shields.io/badge/游戏-星穹铁道-blue)](https://sr.mihoyo.com/main)
 [![爱好-二次元](https://img.shields.io/badge/爱好-二次元-red)](https://bbs.mihoyo.com/sr/wiki/content/5851/detail?bbs_presentation_style=no_header)
 
-![Dynamic neikos SVG](svg/neikos-dynamic.svg)
-
-![GitHub账户最常用语言](https://github-stats.ubrong.com/api/top-langs/?username=PrliStrxs&layout=compact&theme=tokyonight)
+<table>
+  <tr>
+    <td width="50%" align="center">
+      ![Dynamic neikos SVG](svg/neikos-dynamic.svg)
+    </td>
+    <td width="50%" align="center">
+      ![GitHub账户最常用语言](https://github-stats.ubrong.com/api/top-langs/?username=PrliStrxs&layout=compact&theme=tokyonight)
+    </td>
+  </tr>
+</table>
 
 ![BEPb's github activity graph](https://raw.githubusercontent.com/BEPb/BEPb/output/github-contribution-grid-snake.svg)
 
@@ -25,6 +32,6 @@
 ![](https://count.getloli.com/get/@PrliStrxs.github.readme)
 </br>
 
-[github-sub-title:img]: https://readme-typing-svg.herokuapp.com?font=Segoe+Script&center=true&lines=ZhaoNie兆孽.
+[github-sub-title:img]: https://readme-typing-svg.herokuapp.com?font=Segoe+Script&center=true&lines=ZhaoNie兆孽.;main@neikos496.xyz
 
 ![](svg/End.svg)
