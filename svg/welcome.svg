@@ -5,48 +5,69 @@
             font-weight: 700;
             font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
         }
-        .text-small {
-            font-size: 50px;
-            font-weight: 700;
-            font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
-        }
     </style>
-    <g transform="translate(427, 100) scale(1, 1) translate(-427, -100)">
-        <defs>
-            <linearGradient id="linear" x1="0%" y1="0%" x2="100%" y2="0%">
-                <stop offset="0%" stop-color="#E6F3FF"/>
-                <stop offset="25%" stop-color="#4A90E2"/>
-                <stop offset="50%" stop-color="#00CED1"/>
-                <stop offset="75%" stop-color="#90EE90"/>
-                <stop offset="100%" stop-color="#98FB98"/>
-            </linearGradient>
-        </defs>
+    <defs>
+        <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:#C850C0;stop-opacity:1">
+                <animate attributeName="stop-color" values="#C850C0;#f093fb;#4facfe;#C850C0" dur="6s" repeatCount="indefinite" />
+            </stop>
+            <stop offset="25%" style="stop-color:#f093fb;stop-opacity:1">
+                <animate attributeName="stop-color" values="#f093fb;#4facfe;#00f2fe;#f093fb" dur="6s" repeatCount="indefinite" />
+            </stop>
+            <stop offset="50%" style="stop-color:#4facfe;stop-opacity:1">
+                <animate attributeName="stop-color" values="#4facfe;#00f2fe;#00CED1;#4facfe" dur="6s" repeatCount="indefinite" />
+            </stop>
+            <stop offset="75%" style="stop-color:#00CED1;stop-opacity:1">
+                <animate attributeName="stop-color" values="#00CED1;#C850C0;#f093fb;#00CED1" dur="6s" repeatCount="indefinite" />
+            </stop>
+            <stop offset="100%" style="stop-color:#C850C0;stop-opacity:1">
+                <animate attributeName="stop-color" values="#C850C0;#f093fb;#4facfe;#C850C0" dur="6s" repeatCount="indefinite" />
+            </stop>
+        </linearGradient>
         
-        <path d="" fill="url(#linear)" opacity="0.4">
+        <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#C850C0"/>
+            <stop offset="33%" stop-color="#f093fb"/>
+            <stop offset="66%" stop-color="#4facfe"/>
+            <stop offset="100%" stop-color="#00CED1"/>
+        </linearGradient>
+        
+        <filter id="glow">
+            <feGaussianBlur stdDeviation="5" result="coloredBlur"/>
+            <feMerge>
+                <feMergeNode in="coloredBlur"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        
+        <filter id="enhanced-glow">
+            <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+            <feMerge>
+                <feMergeNode in="coloredBlur"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    
+    <g transform="translate(427, 100) scale(1, 1) translate(-427, -100)">
+        <path d="" fill="url(#bg-gradient)" opacity="0.4">
             <animate attributeName="d" dur="20s" repeatCount="indefinite" keyTimes="0;0.333;0.667;1" calcmod="spline" keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1" begin="0s" values="M0 0L 0 120Q 213.5 160 427 130T 854 155L 854 0 Z;M0 0L 0 145Q 213.5 160 427 140T 854 130L 854 0 Z;M0 0L 0 165Q 213.5 135 427 165T 854 130L 854 0 Z;M0 0L 0 120Q 213.5 160 427 130T 854 155L 854 0 Z"></animate>
         </path>
-        <path d="" fill="url(#linear)" opacity="0.4">
+        <path d="" fill="url(#bg-gradient)" opacity="0.4">
             <animate attributeName="d" dur="20s" repeatCount="indefinite" keyTimes="0;0.333;0.667;1" calcmod="spline" keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1" begin="-10s" values="M0 0L 0 135Q 213.5 180 427 150T 854 160L 854 0 Z;M0 0L 0 150Q 213.5 120 427 120T 854 140L 854 0 Z;M0 0L 0 145Q 213.5 125 427 150T 854 165L 854 0 Z;M0 0L 0 135Q 213.5 180 427 150T 854 160L 854 0 Z"></animate>
         </path>
     </g>
 
     <!-- 第一个文字：欢迎查看我的项目 -->
-    <text text-anchor="middle" alignment-baseline="middle" x="50%" y="30%" class="text" style="fill:#2C3E50;">
-        <animate attributeName="opacity" 
-                 dur="6s" 
-                 repeatCount="indefinite" 
-                 keyTimes="0;0.45;0.5;0.95;1" 
-                 values="1;1;0;0;1" />
+    <text text-anchor="middle" alignment-baseline="middle" x="50%" y="30%" class="text" 
+          fill="url(#gradient)" filter="url(#enhanced-glow)">
+        <animate attributeName="opacity" values="0.8;1;0.8" dur="2.5s" repeatCount="indefinite" />
+        <animateTransform attributeName="transform" 
+                          type="scale" 
+                          values="1;1.03;1" 
+                          dur="4s" 
+                          repeatCount="indefinite" 
+                          additive="sum"/>
         欢迎查看我的项目
-    </text>
-
-    <!-- 第二个文字：「然后，一起写下不同以往的诗篇吧♪」 -->
-    <text text-anchor="middle" alignment-baseline="middle" x="50%" y="30%" class="text-small" style="fill:#2C3E50;">
-        <animate attributeName="opacity" 
-                 dur="6s" 
-                 repeatCount="indefinite" 
-                 keyTimes="0;0.45;0.5;0.95;1" 
-                 values="0;0;1;1;0" />
-        「然后，一起写下不同以往的诗篇吧♪」
     </text>
 </svg>
