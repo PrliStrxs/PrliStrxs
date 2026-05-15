@@ -1,10 +1,10 @@
 <div id="title" align=center>
 
-![](svg/Welcome.svg)
+![](svg/Welcome.svg?v=20260516-cnfont)
 
 ![Modern C++ template][github-sub-title:img]
 
-![头像](image/头像.jpg)
+![头像](image/头像.png)
 
 [![哔哩哔哩](https://img.shields.io/badge/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9-%E5%85%86%E5%AD%BD-pink?logo=bilibili)](https://space.bilibili.com/1256186586)
 [![Java](https://img.shields.io/badge/Java-Java%20SE-orange)](https://docs.oracle.com/javase/specs/)
@@ -27,4 +27,4 @@
 
 [github-sub-title:img]: https://readme-typing-svg.herokuapp.com?font=Segoe+Script&center=true&lines=ZhaoNie兆孽.;main@neikos496.xyz
 
-![](svg/End.svg)
+![](svg/End.svg?v=20260516-cnfont)
