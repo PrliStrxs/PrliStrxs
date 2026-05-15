@@ -27,4 +27,4 @@
 
 [github-sub-title:img]: https://readme-typing-svg.herokuapp.com?font=Segoe+Script&center=true&lines=ZhaoNie兆孽.;main@neikos496.xyz
 
-![](svg/End.svg?v=20260516-cnfont)
+![](svg/End.svg?v=20260516-cnfont-fit)
