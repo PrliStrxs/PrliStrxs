@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PrliStrxs // 3D Interactive Cyber Core</title>
+  <meta name="description" content="Personal 3D interactive portfolio and cyberspace with real-time WebGL particles and dynamic visuals.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;600&family=Orbitron:wght@500;700;900&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- 3D WebGL Canvas Layer -->
+  <canvas id="webgl-canvas"></canvas>
+
+  <!-- Background Scanlines & Vignette Overlay -->
+  <div class="crt-overlay"></div>
+  <div class="vignette"></div>
+
+  <!-- Main HUD Application Interface -->
+  <div class="hud-container">
+    <!-- Top Header Navigation -->
+    <header class="hud-header glass-panel">
+      <div class="brand">
+        <span class="brand-symbol">◈</span>
+        <span class="brand-title">PRLISTRXS</span>
+        <span class="brand-tag">v2.6.9 // ONLINE</span>
+      </div>
+
+      <nav class="hud-nav">
+        <button class="nav-btn active" data-tab="hero">OVERVIEW</button>
+        <button class="nav-btn" data-tab="arsenal">ARSENAL</button>
+        <button class="nav-btn" data-tab="projects">PROJECTS</button>
+        <button class="nav-btn" data-tab="terminal">TERMINAL</button>
+      </nav>
+
+      <div class="header-actions">
+        <button id="audio-toggle" class="hud-icon-btn" title="Toggle Synthesized Audio">
+          <span class="icon">🔊</span>
+          <span class="btn-label">SFX: ON</span>
+        </button>
+        <a href="https://github.com/PrliStrxs" target="_blank" rel="noopener noreferrer" class="hud-icon-btn" title="GitHub Profile">
+          <span class="icon">⬡</span>
+          <span class="btn-label">GITHUB</span>
+        </a>
+      </div>
+    </header>
+
+    <!-- Center Stage Sections -->
+    <main class="hud-content">
+      <!-- Section: Hero / Overview -->
+      <section id="tab-hero" class="content-tab active">
+        <div class="hero-card glass-panel">
+          <div class="card-status">
+            <span class="status-dot"></span>
+            <span>SYSTEM INITIALIZED // ALL CHANNELS NOMINAL</span>
+          </div>
+
+          <h1 class="glitch-text" data-text="PRLISTRXS">PRLISTRXS</h1>
+          <p class="subtitle">Creative Developer &amp; Autonomous Systems Explorer</p>
+
+          <p class="hero-desc">
+            Bridging hyper-visual dimensions, interactive computing, and deep architectural engineering.
+            Manipulating 3D geometries, particle networks, and high-performance software.
+          </p>
+
+          <div class="hero-actions">
+            <button class="cyber-btn primary" id="btn-warp">
+              <span class="btn-glitch"></span>
+              <span class="btn-text">WARP QUANTUM CORE</span>
+            </button>
+            <button class="cyber-btn" id="btn-open-terminal">
+              <span class="btn-text">INITIALIZE CLI</span>
+            </button>
+          </div>
+
+          <div class="quick-stats">
+            <div class="stat-item">
+              <span class="stat-val" id="stat-particles">2,400</span>
+              <span class="stat-lbl">Active Particles</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-val">60 FPS</span>
+              <span class="stat-lbl">WebGL Refresh</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-val">100%</span>
+              <span class="stat-lbl">Core Resonance</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section: Arsenal / Skills -->
+      <section id="tab-arsenal" class="content-tab">
+        <div class="arsenal-card glass-panel">
+          <h2 class="section-title"><span>//</span> TECHNICAL ARSENAL</h2>
+          <p class="section-desc">Tactical proficiencies across visual computing, system engineering, and web architectures.</p>
+
+          <div class="arsenal-grid">
+            <div class="skill-category">
+              <h3><span>⬢</span> Visual &amp; 3D Realtime</h3>
+              <div class="skill-tags">
+                <span class="tag glow-cyan">Three.js</span>
+                <span class="tag glow-cyan">WebGL / GLSL</span>
+                <span class="tag glow-cyan">Canvas 2D</span>
+                <span class="tag glow-cyan">Blender 3D</span>
+                <span class="tag glow-cyan">Modern WebGL Shaders</span>
+              </div>
+            </div>
+
+            <div class="skill-category">
+              <h3><span>⬢</span> Systems &amp; Core Languages</h3>
+              <div class="skill-tags">
+                <span class="tag glow-magenta">TypeScript / JS</span>
+                <span class="tag glow-magenta">Rust / C++</span>
+                <span class="tag glow-magenta">Python</span>
+                <span class="tag glow-magenta">Go</span>
+                <span class="tag glow-magenta">Java / JVM</span>
+              </div>
+            </div>
+
+            <div class="skill-category">
+              <h3><span>⬢</span> Web Platforms &amp; Architecture</h3>
+              <div class="skill-tags">
+                <span class="tag glow-gold">Next.js / React</span>
+                <span class="tag glow-gold">Tailwind / Glassmorphism</span>
+                <span class="tag glow-gold">WebSockets / WebRTC</span>
+                <span class="tag glow-gold">WebAssembly (WASM)</span>
+                <span class="tag glow-gold">Cloudflare / Edge</span>
+              </div>
+            </div>
+
+            <div class="skill-category">
+              <h3><span>⬢</span> Automation &amp; Protocol</h3>
+              <div class="skill-tags">
+                <span class="tag glow-emerald">Reverse Engineering</span>
+                <span class="tag glow-emerald">Packet Analysis</span>
+                <span class="tag glow-emerald">GitHub Actions CI/CD</span>
+                <span class="tag glow-emerald">Autonomous Agent Tools</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section: Projects -->
+      <section id="tab-projects" class="content-tab">
+        <div class="projects-card glass-panel">
+          <h2 class="section-title"><span>//</span> DEPLOYED SYSTEMS</h2>
+          <p class="section-desc">Selected projects and ongoing technological experiments.</p>
+
+          <div class="projects-grid">
+            <div class="project-box">
+              <div class="project-header">
+                <span class="proj-id">SYS-01</span>
+                <span class="proj-badge">ACTIVE</span>
+              </div>
+              <h3 class="proj-title">Cyber Core 3D</h3>
+              <p class="proj-desc">High-performance interactive 3D particle universe, featuring responsive force fields and real-time audio synthesis.</p>
+              <div class="proj-meta">
+                <span>WebGL</span>
+                <span>Three.js</span>
+                <span>AudioSynth</span>
+              </div>
+            </div>
+
+            <div class="project-box">
+              <div class="project-header">
+                <span class="proj-id">SYS-02</span>
+                <span class="proj-badge">ENGINEERING</span>
+              </div>
+              <h3 class="proj-title">Castorice-SR Protocol</h3>
+              <p class="proj-desc">Star Rail simulation protocols, network packet handling, and client-server orchestration architecture.</p>
+              <div class="proj-meta">
+                <span>Java 21</span>
+                <span>Network</span>
+                <span>Protobuf</span>
+              </div>
+            </div>
+
+            <div class="project-box">
+              <div class="project-header">
+                <span class="proj-id">SYS-03</span>
+                <span class="proj-badge">INNOVATION</span>
+              </div>
+              <h3 class="proj-title">Agentic Workflow Matrix</h3>
+              <p class="proj-desc">Autonomous multi-agent orchestration pipelines for deep code analysis, self-repair, and continuous deployment.</p>
+              <div class="proj-meta">
+                <span>TypeScript</span>
+                <span>LLM Protocols</span>
+                <span>CLI</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section: Terminal -->
+      <section id="tab-terminal" class="content-tab">
+        <div class="terminal-card glass-panel">
+          <div class="terminal-bar">
+            <div class="terminal-buttons">
+              <span class="term-btn red"></span>
+              <span class="term-btn yellow"></span>
+              <span class="term-btn green"></span>
+            </div>
+            <div class="terminal-title">PRLISTRXS_CLI // INTERACTIVE_BASH</div>
+          </div>
+          <div class="terminal-body" id="term-output">
+            <div class="term-line">Welcome to PrliStrxs Cyberdeck Terminal.</div>
+            <div class="term-line text-muted">Type <span class="highlight">'help'</span> to see available diagnostic commands.</div>
+          </div>
+          <div class="terminal-input-row">
+            <span class="term-prompt">user@prlistrxs:~$</span>
+            <input type="text" id="term-input" autocomplete="off" spellcheck="false" placeholder="Enter command...">
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Bottom Controls HUD -->
+    <footer class="hud-footer glass-panel">
+      <div class="scene-controls">
+        <span class="ctrl-label">MODE:</span>
+        <button class="mode-btn active" data-mode="quantum">QUANTUM CORE</button>
+        <button class="mode-btn" data-mode="galaxy">GALAXY SPIRAL</button>
+        <button class="mode-btn" data-mode="matrix">GRID MATRIX</button>
+      </div>
+
+      <div class="color-palette">
+        <span class="ctrl-label">THEME:</span>
+        <button class="palette-dot active" data-theme="cyan" style="--c: #00f0ff;" title="Neon Cyan"></button>
+        <button class="palette-dot" data-theme="magenta" style="--c: #ff007f;" title="Cyber Magenta"></button>
+        <button class="palette-dot" data-theme="emerald" style="--c: #00ff66;" title="Matrix Green"></button>
+        <button class="palette-dot" data-theme="gold" style="--c: #ffaa00;" title="Solar Gold"></button>
+      </div>
+
+      <div class="interaction-hint">
+        <span>🖱 Drag to rotate // Scroll to zoom // Move to bend field</span>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Load Main Script with Three.js Module Support -->
+  <script type="module" src="main.js"></script>
+</body>
+</html>
